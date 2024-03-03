@@ -108,22 +108,31 @@ img {
 
 }
 
+/*Experience specific elements*/
+
+.experience-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience-div-container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
 .experience,
 .education,
 .skills {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding-top: 25px;
     border: 5px black;
     margin: 20px;
+    font-size: large;
 }
 
-.all-experience {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
 .place-container {
     display: flex;
@@ -132,7 +141,6 @@ img {
     padding-top: 10px;
 }
 
-.experience-container,
 .education-container,
 .skills-container {
     display: flex;
