@@ -107,6 +107,12 @@ img {
 
 }
 
+hr {
+    border: 1px solid grey;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
 /*Experience specific elements*/
 
 .experience-container {
@@ -114,16 +120,20 @@ img {
     flex-direction: row;
 }
 
-.experience-div-container {
+.experience-div-container,
+.education-div-container,
+.skills-div-container {
     display: flex;
     flex-direction: row;
     align-items: center; 
     padding: 50px;
-    padding-top: 200px;
 }
 
-.experience-summary {
+.experience-summary,
+.education-summary,
+.skills-summary{
     width: fit-content;
+    width: -moz-fit-content;
     padding-right: 25px;
 }
 
@@ -152,12 +162,6 @@ img {
     padding-top: 10px;
 }
 
-.education-container,
-.skills-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 200px;
-}
 
 .experience-summary,
 .education-summary,
