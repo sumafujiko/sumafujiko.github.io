@@ -243,6 +243,14 @@ hr {
     padding-bottom: 250px;
 }
 
+.end-notes {
+    display: flex;
+    flex-direction: row;
+}
+
+.end-notes p {
+    padding-right: 10px;
+}
 
 @media only screen and (max-width: 768px) {
     .name-email {
