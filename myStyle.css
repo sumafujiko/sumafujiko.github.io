@@ -113,6 +113,22 @@ li span {
     padding-top: 10px;
 }
 
+.experience-container,
+.education-container,
+.skills-container {
+    display: flex;
+    flex-direction: row;
+}
+.experience-summary,
+.education-summary,
+.skills-summary {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: larger;
+}
+
 @media only screen and (max-width: 768px) {
     .name-email {
         margin-right: 0; 
