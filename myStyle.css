@@ -112,7 +112,7 @@ img {
 .education,
 .skills {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-top: 25px;
     border: 5px black;
     margin: 20px;
@@ -135,7 +135,7 @@ img {
 .education-container,
 .skills-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .experience-summary,
