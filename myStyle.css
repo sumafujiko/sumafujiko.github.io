@@ -83,11 +83,29 @@ li span {
     font-weight: normal;
 }
 
+/*Main elements*/
+
 .summary {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-top: 25px;
     margin: 20px;
+}
+
+.summary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
+
 }
 
 .experience,
@@ -119,6 +137,7 @@ li span {
     display: flex;
     flex-direction: row;
 }
+
 .experience-summary,
 .education-summary,
 .skills-summary {
