@@ -16,16 +16,8 @@ ul {
     list-style: disc;
 }
 
-a {
-    color: rgb(71, 71, 212);
-}
-
 a:link {
     text-decoration: none;
-}
-
-a:hover {
-    color: blue;
 }
 
 li,
@@ -48,9 +40,30 @@ li span {
 .header-links h3,
 .header-links a,
 .header-links p,
-.footer p{
+.footer p,
+ion-icon {
     background-color: rgb(27, 27, 30);
     color: rgb(238, 231, 231);
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.social-icon {
+    justify-content: center;
+    background-color: rgb(27, 27, 30);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 32px;
+}
+
+.header-links {
+    padding-right: 300px;
+    padding-left: 300px;
 }
 
 .header,
@@ -62,8 +75,9 @@ li span {
 }
 
 .name-email {
-    margin-right: 350px;
+    margin-left: 100px; 
 }
+
 .name-email,
 .header-links {
     display: flex;
@@ -89,7 +103,6 @@ li span {
     flex-direction: row;
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
 
 /*Main elements*/
@@ -202,6 +215,11 @@ hr {
 .experience-summary p {
     justify-content: left;
 }
+
+.skills-div-container {
+    padding-bottom: 250px;
+}
+
 
 @media only screen and (max-width: 768px) {
     .name-email {
